@@ -189,6 +189,12 @@
             <!-- log4j2 end -->
 
             <dependency>
+                <groupId>commons-logging</groupId>
+                <artifactId>commons-logging</artifactId>
+                <version>1.2</version>
+            </dependency>
+
+            <dependency>
                 <groupId>com.architecture.utils</groupId>
                 <artifactId>arch-utils</artifactId>
                 <version>1.0.0</version>

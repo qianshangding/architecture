@@ -70,7 +70,6 @@ public class HttpHelper {
             respEntity = response.getEntity();
             if (respEntity != null) {
                 result = EntityUtils.toString(respEntity, "utf-8");
-//                logger.info("reveive message:\t" + result);
             }
             return result;
         } catch (IOException e) {

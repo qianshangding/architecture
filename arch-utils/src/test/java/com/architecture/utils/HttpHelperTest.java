@@ -11,7 +11,7 @@ import java.util.Map;
 public class HttpHelperTest {
     @Test
     public void postTest() {
-//        final String remoteUrl = "http://www.baidu.com";
+//        final String remoteUrl = "https://www.baidu.com";
 //        Map<String, Object> params = new HashMap<>();
 //        params.put("kdt_id", "1");
 //        System.out.println(new HttpHelper().restPost(remoteUrl, params));
