@@ -270,5 +270,6 @@
         <module>arch-utils</module>
         <module>arch-third</module>
         <module>arch-common</module>
+        <module>arch-test</module>
     </modules>
 </project>
