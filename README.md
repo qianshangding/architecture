@@ -8,7 +8,7 @@
 
 arch-mybatis
 -----------
-arch-mybatis主要实现打印sql和sql执行阀值超过多少后打印错误日志。在项目中使用分两步
+arch-mybatis主要实现打印sql和sql执行阀值超过多少后打印错误日志。在项目中使用分两步  
 第一：引入依赖
 ```xml
         <dependency>
