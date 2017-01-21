@@ -276,6 +276,8 @@
     <modules>
         <module>arch-utils</module>
         <module>arch-third</module>
+        <module>arch-redis</module>
+        <module>arch-mybatis</module>
         <module>arch-common</module>
         <module>arch-test</module>
     </modules>
