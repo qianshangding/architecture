@@ -20,6 +20,7 @@
         <lombok.version>1.16.10</lombok.version>
         <commons.lang3.version>3.5</commons.lang3.version>
         <javassist.version>3.12.1.GA</javassist.version>
+        <lombok.version>1.16.12</lombok.version>
     </properties>
 
     <dependencyManagement>
@@ -36,6 +37,13 @@
                 <artifactId>spring-test</artifactId>
                 <version>${spring.version}</version>
                 <scope>test</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+                <scope>provided</scope>
             </dependency>
 
             <dependency>

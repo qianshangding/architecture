@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.architecture.mybatis</groupId>
 	<artifactId>arch-mybatis</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>arch-mybatis</name>
 	<url>http://maven.apache.org</url>
 	<properties>
@@ -27,7 +27,6 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-jdbc</artifactId>
-			<version>${spring.version}</version>
 			<scope>provided</scope>
 		</dependency>
 
@@ -67,14 +66,6 @@
 			<scope>provided</scope>
 		</dependency>
 		<!-- mysql end -->
-
-		<!-- spring start -->
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-web</artifactId>
-			<scope>provided</scope>
-		</dependency>
-		<!-- spring end -->
 
 		<!-- log4j2 start -->
 		<dependency>
