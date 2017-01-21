@@ -6,8 +6,18 @@
 * [arch-redis](#arch-redis)
 * [arch-thrid](#arch-thrid)
 
-横线
+arch-mybatis
 -----------
+arch-mybatis主要实现打印sql和sql执行阀值超过多少后打印错误日志。在项目中使用分两步
+第一：引入依赖
+```xml
+        <dependency>
+            <groupId>com.architecture.mybatis</groupId>
+            <artifactId>arch-mybatis</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+```
+第二：在mybaits加入plugin
 ```xml
     <plugins>
         <plugin interceptor="com.architecture.mybatis.monitor.SqlMonitorPlugin">
