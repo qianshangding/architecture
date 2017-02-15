@@ -1,5 +1,8 @@
 package com.architecture.utils;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.security.MessageDigest;
@@ -16,6 +19,8 @@ import javax.crypto.spec.SecretKeySpec;
  * @author Fish
  */
 public class AESHelper {
+    private static final Log logger = LogFactory.getLog(AESHelper.class);
+
     Cipher ecipher;
     Cipher dcipher;
 
