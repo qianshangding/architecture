@@ -23,7 +23,6 @@ public class CodeHelper {
 
     }
 
-
     /**
      * 时间戳+随机数(会重复)
      **/
